@@ -3,7 +3,7 @@ using namespace std;
 
 //PROGRAM RENTAL MOBIL - KELOMPOK 4
 //Namira Nurfaliani
-//Shafa Naura Amuktya Dewi
+//Shafa Naura Amuktya Dewani
 //Faisal Akbar
 //Galih Aditya Fernanda
 
@@ -16,7 +16,7 @@ void header(){
 	cout<<"===================================================\n";
 }
 void footer(){
-	cout<<"\n===   T E R I M A   K A S I H  Y A  T E L A H   M E N G G U N A K A N   J A S A   K A M I   ===\n";
+	cout<<"\n===   T E R I M A   K A S I H   Y A   T E L A H   M E N G G U N A K A N   J A S A   K A M I   ===\n";
 	cout<<"\t\t\t===   K E E P   S A F E T Y   R I D I N G   ===\n\n";
 }
 
@@ -34,12 +34,12 @@ class hargaTarif{
 		cout<<"[1] PerJam\t\t Rp 15.000\n";
 		cout<<"[2] PerHari\t\t Rp 300.000\n";
 		while(lamaRental >= 0){
-		cout<<"Masukkan pilihan Rental : ";
+		cout<<"Masukkan Pilihan Rental : ";
 		cin>>lamaRental;
 		switch(lamaRental){
 			case 1:
 				do{
-					cout<<"Lama Jam rental (1-24): ";
+					cout<<"Lama Jam Rental (1-24): ";
 					cin>>waktuRental;
 					if(waktuRental >=1 && waktuRental <=24){
 						return waktuRental * 15000;
@@ -50,7 +50,7 @@ class hargaTarif{
 			break;
 			case 2:
 				do{
-					cout<<"Lama Hari rental (1-31): ";
+					cout<<"Lama Hari Rental (1-31): ";
 					cin>>waktuRental;
 					if(waktuRental>=1 && waktuRental<=31){
 						return waktuRental *300000;
@@ -152,7 +152,7 @@ class hargaTarif{
 						exit(6);
 					break;
 					default:
-						cout<<"\nSilakan pilih Mobil Sesuai Angka\n";
+						cout<<"\nSilakan Pilih Mobil Sesuai Angka\n";
 				}
 			}while(pilihMobil>=7);
 		}
@@ -210,7 +210,7 @@ int main(){
 	hargaTarif MyObj;
 	while(pilihMobil>=0){
 		header();
-			cout<<"Masukkan pilihan Mobil : ";
+			cout<<"Masukkan Pilihan Mobil : ";
 			cin>>pilihMobil;
 			switch(pilihMobil){
 				case 1:
