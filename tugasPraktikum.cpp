@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
 
+//PROGRAM RENTAL MOBIL - KELOMPOK 4
+//Namira Nurfaliani
+//Shafa Naura Amuktya Dewi
+//Faisal Akbar
+//Galih Aditya Fernanda
+
 void header(){
 	cout<<"===   P R O G R A M   R E N T A L   M O B I L   ===\n";
 	cout<<"[1] H O N D A\n";
@@ -12,6 +18,9 @@ void header(){
 void footer(){
 	cout<<"\n===   T E R I M A   K A S I H   T E L A H   M E N G G U N A K A N   J A S A   K A M I   ===\n";
 	cout<<"\t\t\t===   K E E P   S A F E T Y   R I D I N G   ===\n\n";
+}
+
+int diskon(){
 }
 
 class hargaTarif{
