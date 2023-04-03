@@ -16,7 +16,7 @@ void header(){
 	cout<<"===================================================\n";
 }
 void footer(){
-	cout<<"\n===   T E R I M A   K A S I H   T E L A H   M E N G G U N A K A N   J A S A   K A M I   ===\n";
+	cout<<"\n===   T E R I M A   K A S I H  Y A  T E L A H   M E N G G U N A K A N   J A S A   K A M I   ===\n";
 	cout<<"\t\t\t===   K E E P   S A F E T Y   R I D I N G   ===\n\n";
 }
 
