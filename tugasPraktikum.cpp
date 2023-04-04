@@ -161,7 +161,7 @@ class hargaTarif{
 			cout<<"[1] J A Z Z\n";
 			cout<<"[2] B R I O\n";
 			cout<<"[3] H I A C E\n";
-			cout<<"[4] C R - V\n";
+			cout<<"[4] H R - V\n";
 			cout<<"[5] M O B I L I O\n";
 			cout<<"[6] K E L U A R \n";
 			cout<<"===================================\n";
@@ -186,7 +186,7 @@ class hargaTarif{
 					break;
 					case 4:
 						garis();
-						cout<<"Anda Memilih Mobil CR-V"<<endl;
+						cout<<"Anda Memilih Mobil HR-V"<<endl;
 						garis();
 					break;
 					case 5:
